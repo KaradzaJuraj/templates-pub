@@ -2,7 +2,8 @@
   "properties": {
     "name": {
       "description": "Application name",
-      "type": "string"
+      "type": "string",
+      "pattern": "^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"
     },
     "replicas": {
       "description": "Number of replicas",
