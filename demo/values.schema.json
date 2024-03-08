@@ -8,7 +8,11 @@
     },
     "replicas": {
       "description": "Number of replicas",
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "exclusiveMinimum": true,
+      "exclusiveMaximum": true
     },
     "image": {
       "description": "Container Image",
