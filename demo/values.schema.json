@@ -9,6 +9,7 @@
     "replicas": {
       "description": "Number of replicas",
       "type": "integer",
+      "multipleOf" : 2,
       "minimum": 0,
       "maximum": 5,
       "exclusiveMinimum": true,
