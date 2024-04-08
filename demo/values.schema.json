@@ -9,7 +9,7 @@
       "type": "integer"
     },
     "image": {
-      "description": "Container Image run in the Pod",
+      "description": "Container Image",
       "type": "string"
     },
     "version": {
