@@ -22,7 +22,7 @@
     },
     "wow": {
       "description": "world of warcraft",
-      "type": "array"
+      "type": "array",
       "items": {
         "type": "object"
       }
