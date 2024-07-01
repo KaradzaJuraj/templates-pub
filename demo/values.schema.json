@@ -25,7 +25,9 @@
       "type": "array",
       "items": {
         "type": "number"
-      }
+      },  
+      "minItems": 1,
+      "uniqueItems": true
     }
   },
   "order": [
