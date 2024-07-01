@@ -23,6 +23,9 @@
     "wow": {
       "description": "world of warcraft",
       "type": "array"
+      "items": {
+        "type": "object"
+      }
     }
   },
   "order": [
