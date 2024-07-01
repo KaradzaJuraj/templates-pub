@@ -22,7 +22,10 @@
     },
     "wow": {
       "description": "world of warcraft",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
     }
   },
   "order": [
