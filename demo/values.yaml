@@ -3,4 +3,6 @@ name: demo-x
 replicas: 1
 service: true
 version: 1.14.2
-wow: [1,2,3]
+wow:
+  - 1: 1
+    2: 2
