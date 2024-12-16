@@ -14,4 +14,9 @@ spec:
     repo: https://github.com/cyclops-ui/templates
     sourceType: git
     version: main
-  values: null
+  values:
+    image: nginx
+    name: demo-app
+    replicas: 5
+    service: true
+    version: latest
