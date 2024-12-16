@@ -18,5 +18,5 @@ spec:
     image: nginx
     name: demo-app
     replicas: 5
-    service: false
+    service: true
     version: latest
