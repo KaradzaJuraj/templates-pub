@@ -19,4 +19,4 @@ spec:
     name: demo-app
     replicas: 1
     service: true
-    version: latest
+    version: 1.14.2
