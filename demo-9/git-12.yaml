@@ -1,0 +1,22 @@
+apiVersion: cyclops-ui.com/v1alpha1
+kind: Module
+metadata:
+  annotations:
+    cyclops-ui.com/write-path: demo-9
+    cyclops-ui.com/write-repo: https://github.com/KaradzaJuraj/templates-pub
+    cyclops-ui.com/write-revision: main
+  creationTimestamp: null
+  name: git-12
+spec:
+  targetNamespace: lele
+  template:
+    path: demo
+    repo: https://github.com/cyclops-ui/templates
+    sourceType: git
+    version: main
+  values:
+    image: nginx
+    name: demo-app
+    replicas: 1
+    service: true
+    version: latest
