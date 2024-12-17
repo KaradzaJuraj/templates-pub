@@ -17,9 +17,9 @@ spec:
   values:
     image: nginx
     name: demo-app
-    replicas: 1
-    service: true
-    version: 1.14.2
+    replicas: 5
+    service: false
+    version: latest
 status:
   iconURL: ""
   managedGVRs: null
