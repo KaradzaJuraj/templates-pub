@@ -1,0 +1,28 @@
+apiVersion: cyclops-ui.com/v1alpha1
+kind: Module
+metadata:
+  annotations:
+    cyclops-ui.com/write-path: htr
+    cyclops-ui.com/write-repo: https://github.com/KaradzaJuraj/templates-pub
+    cyclops-ui.com/write-revision: jahta
+  creationTimestamp: null
+  name: app-1
+spec:
+  targetNamespace: default
+  template:
+    path: app-template
+    repo: https://github.com/cyclops-ui/templates
+    sourceType: git
+    version: ab2756886ba4c9e0e3122e3cbb6dc0338fadc617
+  values:
+    general:
+      environment:
+        ENVIRONMENT: production
+      image: nginx
+      version: latest
+    networking:
+      expose: true
+      port: 80
+      type: ClusterIP
+    scaling:
+      replicas: 2
