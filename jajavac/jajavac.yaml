@@ -5,6 +5,7 @@ metadata:
     cyclops-ui.com/write-path: jajavac
     cyclops-ui.com/write-repo: https://github.com/KaradzaJuraj/templates-pub
     cyclops-ui.com/write-revision: required-branch-2
+    cyclops/reconciled-at: "2024-12-17T15:14:52+01:00"
   creationTimestamp: null
   name: jajavac
 spec:
@@ -13,11 +14,11 @@ spec:
     path: demo
     repo: https://github.com/cyclops-ui/templates
     sourceType: git
-    version: main
+    version: ab2756886ba4c9e0e3122e3cbb6dc0338fadc617
   values:
     image: nginx
     name: demo-app
-    replicas: 1
+    replicas: 5
     service: true
     version: 1.14.2
 status:
